@@ -1,0 +1,14 @@
+.me h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: gray;
+}
+.me p{
+    padding: 0px 50px;
+}
+.why{
+    padding: 0px 50px;
+}
+.why h1{
+    color: gray;
+}

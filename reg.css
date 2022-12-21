@@ -1,0 +1,78 @@
+body{
+    background: white;
+    font-family: serif;
+    border-radius: 3px;
+    border-color: red;
+}
+.form{
+    margin-top: 5%;
+    width: 400px;
+    height: 530px;
+    background: #e91e63;
+    position: absolute;
+    top: 30px;
+    right: 500px;
+    border-radius: 10px;
+    padding: 25px;
+    align-items: center;
+}
+.continer{
+    width: 400px;
+    height: 530px;
+    position: absolute;
+    top: 600px;
+    right: 550px;
+    padding: 25px;
+}
+.form, h2{
+    font-size: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    align-content: center;
+}
+ form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+    align-content: center;
+ }
+ input [type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #34aa72;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+    align-content: center;
+ }
+ .btnn{
+    width: 400px ;
+    height: 30px;
+    background: green;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+    align-content: center;
+ }
+ .btnn:hover{
+    background: #fff;
+    color: #ff7200;
+    align-content: center;
+ }
+ .btnn a{
+    text-decoration: none;
+    color: #000 ;
+    font-weight: bold;
+    align-content: center;
+ }
